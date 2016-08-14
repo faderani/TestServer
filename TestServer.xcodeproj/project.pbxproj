@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344C8C251D6051A60041E76E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C241D6051A60041E76E /* AppDelegate.swift */; };
+		344C8C271D6051A60041E76E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C261D6051A60041E76E /* ViewController.swift */; };
+		344C8C2A1D6051A60041E76E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344C8C281D6051A60041E76E /* Main.storyboard */; };
+		344C8C2C1D6051A60041E76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344C8C2B1D6051A60041E76E /* Assets.xcassets */; };
+		344C8C2F1D6051A60041E76E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344C8C2D1D6051A60041E76E /* LaunchScreen.storyboard */; };
+		344C8C3C1D6051B60041E76E /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C371D6051B60041E76E /* ysocket.swift */; };
+		344C8C3D1D6051B60041E76E /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C381D6051B60041E76E /* ytcpsocket.c */; };
+		344C8C3E1D6051B60041E76E /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C391D6051B60041E76E /* ytcpsocket.swift */; };
+		344C8C3F1D6051B60041E76E /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C3A1D6051B60041E76E /* yudpsocket.c */; };
+		344C8C401D6051B60041E76E /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C3B1D6051B60041E76E /* yudpsocket.swift */; };
+		344C8C4F1D60542D0041E76E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C4E1D60542D0041E76E /* main.swift */; };
+		344C8C5C1D6054B40041E76E /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C571D6054B40041E76E /* ysocket.swift */; };
+		344C8C5D1D6054B40041E76E /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C581D6054B40041E76E /* ytcpsocket.c */; };
+		344C8C5E1D6054B40041E76E /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C591D6054B40041E76E /* ytcpsocket.swift */; };
+		344C8C5F1D6054B40041E76E /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C5A1D6054B40041E76E /* yudpsocket.c */; };
+		344C8C601D6054B40041E76E /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C5B1D6054B40041E76E /* yudpsocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		344C8C4A1D60542D0041E76E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		344C8C211D6051A60041E76E /* TestServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		344C8C241D6051A60041E76E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		344C8C261D6051A60041E76E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		344C8C291D6051A60041E76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		344C8C2B1D6051A60041E76E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344C8C2E1D6051A60041E76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		344C8C301D6051A60041E76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344C8C371D6051B60041E76E /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		344C8C381D6051B60041E76E /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		344C8C391D6051B60041E76E /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		344C8C3A1D6051B60041E76E /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		344C8C3B1D6051B60041E76E /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		344C8C4C1D60542D0041E76E /* Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Server; sourceTree = BUILT_PRODUCTS_DIR; };
+		344C8C4E1D60542D0041E76E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		344C8C571D6054B40041E76E /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		344C8C581D6054B40041E76E /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		344C8C591D6054B40041E76E /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		344C8C5A1D6054B40041E76E /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		344C8C5B1D6054B40041E76E /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344C8C1E1D6051A60041E76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344C8C491D60542D0041E76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344C8C181D6051A60041E76E = {
+			isa = PBXGroup;
+			children = (
+				344C8C361D6051B60041E76E /* ysocket */,
+				344C8C231D6051A60041E76E /* TestServer */,
+				344C8C4D1D60542D0041E76E /* Server */,
+				344C8C221D6051A60041E76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		344C8C221D6051A60041E76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344C8C211D6051A60041E76E /* TestServer.app */,
+				344C8C4C1D60542D0041E76E /* Server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344C8C231D6051A60041E76E /* TestServer */ = {
+			isa = PBXGroup;
+			children = (
+				344C8C241D6051A60041E76E /* AppDelegate.swift */,
+				344C8C261D6051A60041E76E /* ViewController.swift */,
+				344C8C281D6051A60041E76E /* Main.storyboard */,
+				344C8C2B1D6051A60041E76E /* Assets.xcassets */,
+				344C8C2D1D6051A60041E76E /* LaunchScreen.storyboard */,
+				344C8C301D6051A60041E76E /* Info.plist */,
+			);
+			path = TestServer;
+			sourceTree = "<group>";
+		};
+		344C8C361D6051B60041E76E /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				344C8C371D6051B60041E76E /* ysocket.swift */,
+				344C8C381D6051B60041E76E /* ytcpsocket.c */,
+				344C8C391D6051B60041E76E /* ytcpsocket.swift */,
+				344C8C3A1D6051B60041E76E /* yudpsocket.c */,
+				344C8C3B1D6051B60041E76E /* yudpsocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+		344C8C4D1D60542D0041E76E /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				344C8C571D6054B40041E76E /* ysocket.swift */,
+				344C8C581D6054B40041E76E /* ytcpsocket.c */,
+				344C8C591D6054B40041E76E /* ytcpsocket.swift */,
+				344C8C5A1D6054B40041E76E /* yudpsocket.c */,
+				344C8C5B1D6054B40041E76E /* yudpsocket.swift */,
+				344C8C4E1D60542D0041E76E /* main.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344C8C201D6051A60041E76E /* TestServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344C8C331D6051A60041E76E /* Build configuration list for PBXNativeTarget "TestServer" */;
+			buildPhases = (
+				344C8C1D1D6051A60041E76E /* Sources */,
+				344C8C1E1D6051A60041E76E /* Frameworks */,
+				344C8C1F1D6051A60041E76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestServer;
+			productName = TestServer;
+			productReference = 344C8C211D6051A60041E76E /* TestServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		344C8C4B1D60542D0041E76E /* Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344C8C501D60542D0041E76E /* Build configuration list for PBXNativeTarget "Server" */;
+			buildPhases = (
+				344C8C481D60542D0041E76E /* Sources */,
+				344C8C491D60542D0041E76E /* Frameworks */,
+				344C8C4A1D60542D0041E76E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Server;
+			productName = Server;
+			productReference = 344C8C4C1D60542D0041E76E /* Server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344C8C191D6051A60041E76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Soroush;
+				TargetAttributes = {
+					344C8C201D6051A60041E76E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F2SW75LBZV;
+					};
+					344C8C4B1D60542D0041E76E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 344C8C1C1D6051A60041E76E /* Build configuration list for PBXProject "TestServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344C8C181D6051A60041E76E;
+			productRefGroup = 344C8C221D6051A60041E76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344C8C201D6051A60041E76E /* TestServer */,
+				344C8C4B1D60542D0041E76E /* Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344C8C1F1D6051A60041E76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344C8C2F1D6051A60041E76E /* LaunchScreen.storyboard in Resources */,
+				344C8C2C1D6051A60041E76E /* Assets.xcassets in Resources */,
+				344C8C2A1D6051A60041E76E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344C8C1D1D6051A60041E76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344C8C3C1D6051B60041E76E /* ysocket.swift in Sources */,
+				344C8C271D6051A60041E76E /* ViewController.swift in Sources */,
+				344C8C3F1D6051B60041E76E /* yudpsocket.c in Sources */,
+				344C8C3D1D6051B60041E76E /* ytcpsocket.c in Sources */,
+				344C8C251D6051A60041E76E /* AppDelegate.swift in Sources */,
+				344C8C3E1D6051B60041E76E /* ytcpsocket.swift in Sources */,
+				344C8C401D6051B60041E76E /* yudpsocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344C8C481D60542D0041E76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344C8C601D6054B40041E76E /* yudpsocket.swift in Sources */,
+				344C8C5E1D6054B40041E76E /* ytcpsocket.swift in Sources */,
+				344C8C5F1D6054B40041E76E /* yudpsocket.c in Sources */,
+				344C8C5C1D6054B40041E76E /* ysocket.swift in Sources */,
+				344C8C5D1D6054B40041E76E /* ytcpsocket.c in Sources */,
+				344C8C4F1D60542D0041E76E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		344C8C281D6051A60041E76E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344C8C291D6051A60041E76E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		344C8C2D1D6051A60041E76E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344C8C2E1D6051A60041E76E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		344C8C311D6051A60041E76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344C8C321D6051A60041E76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344C8C341D6051A60041E76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soroush.TestServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		344C8C351D6051A60041E76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soroush.TestServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		344C8C511D60542D0041E76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		344C8C521D60542D0041E76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344C8C1C1D6051A60041E76E /* Build configuration list for PBXProject "TestServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344C8C311D6051A60041E76E /* Debug */,
+				344C8C321D6051A60041E76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344C8C331D6051A60041E76E /* Build configuration list for PBXNativeTarget "TestServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344C8C341D6051A60041E76E /* Debug */,
+				344C8C351D6051A60041E76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		344C8C501D60542D0041E76E /* Build configuration list for PBXNativeTarget "Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344C8C511D60542D0041E76E /* Debug */,
+				344C8C521D60542D0041E76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344C8C191D6051A60041E76E /* Project object */;
+}
