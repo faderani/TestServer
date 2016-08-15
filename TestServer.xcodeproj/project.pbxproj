@@ -23,6 +23,8 @@
 		344C8C5E1D6054B40041E76E /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C591D6054B40041E76E /* ytcpsocket.swift */; };
 		344C8C5F1D6054B40041E76E /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C5A1D6054B40041E76E /* yudpsocket.c */; };
 		344C8C601D6054B40041E76E /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C5B1D6054B40041E76E /* yudpsocket.swift */; };
+		344C8C621D606EDF0041E76E /* ClientHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C8C611D606EDF0041E76E /* ClientHandling.swift */; };
+		34FA7FA31D60839D0057DB3C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA7FA21D60839D0057DB3C /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +59,9 @@
 		344C8C591D6054B40041E76E /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
 		344C8C5A1D6054B40041E76E /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
 		344C8C5B1D6054B40041E76E /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		344C8C611D606EDF0041E76E /* ClientHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientHandling.swift; sourceTree = "<group>"; };
+		34FA7F9F1D60811A0057DB3C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		34FA7FA21D60839D0057DB3C /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 				344C8C2B1D6051A60041E76E /* Assets.xcassets */,
 				344C8C2D1D6051A60041E76E /* LaunchScreen.storyboard */,
 				344C8C301D6051A60041E76E /* Info.plist */,
+				344C8C611D606EDF0041E76E /* ClientHandling.swift */,
 			);
 			path = TestServer;
 			sourceTree = "<group>";
@@ -124,12 +130,14 @@
 		344C8C4D1D60542D0041E76E /* Server */ = {
 			isa = PBXGroup;
 			children = (
+				34FA7F9F1D60811A0057DB3C /* back.png */,
 				344C8C571D6054B40041E76E /* ysocket.swift */,
 				344C8C581D6054B40041E76E /* ytcpsocket.c */,
 				344C8C591D6054B40041E76E /* ytcpsocket.swift */,
 				344C8C5A1D6054B40041E76E /* yudpsocket.c */,
 				344C8C5B1D6054B40041E76E /* yudpsocket.swift */,
 				344C8C4E1D60542D0041E76E /* main.swift */,
+				34FA7FA21D60839D0057DB3C /* Client.swift */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 				344C8C3C1D6051B60041E76E /* ysocket.swift in Sources */,
 				344C8C271D6051A60041E76E /* ViewController.swift in Sources */,
 				344C8C3F1D6051B60041E76E /* yudpsocket.c in Sources */,
+				344C8C621D606EDF0041E76E /* ClientHandling.swift in Sources */,
 				344C8C3D1D6051B60041E76E /* ytcpsocket.c in Sources */,
 				344C8C251D6051A60041E76E /* AppDelegate.swift in Sources */,
 				344C8C3E1D6051B60041E76E /* ytcpsocket.swift in Sources */,
@@ -242,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				344C8C601D6054B40041E76E /* yudpsocket.swift in Sources */,
+				34FA7FA31D60839D0057DB3C /* Client.swift in Sources */,
 				344C8C5E1D6054B40041E76E /* ytcpsocket.swift in Sources */,
 				344C8C5F1D6054B40041E76E /* yudpsocket.c in Sources */,
 				344C8C5C1D6054B40041E76E /* ysocket.swift in Sources */,
@@ -423,6 +433,7 @@
 				344C8C351D6051A60041E76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		344C8C501D60542D0041E76E /* Build configuration list for PBXNativeTarget "Server" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +442,7 @@
 				344C8C521D60542D0041E76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

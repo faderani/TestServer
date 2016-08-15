@@ -7,13 +7,19 @@
 //
 
 import UIKit
-
+import CFNetwork
+import Foundation
 class ViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        testudpBroadcastclient()
+        ClientHandling.instance.testudpBroadcastclient(UIDevice.currentDevice().name + " is online")
+        ClientHandling.instance.testudpReceiveFromServer()
+        while true {
+            ClientHandling.instance.testudpReceiveFromServer()
+        }
 
     }
 
@@ -22,15 +28,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
            }
 
-    func testudpBroadcastclient(){
-        //wait a few second till server will ready
-        sleep(2)
-        print("Broadcastclient.send...")
-        let clientB:UDPClient = UDPClient(addr: "255.255.255.255", port: 8080)
-        clientB.enableBroadcast()
-        clientB.send(str: "test hello from broadcast")
-        clientB.close()
-    }
+        
+    
 
 }
 
